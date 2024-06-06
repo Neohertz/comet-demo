@@ -1,10 +1,9 @@
 {
-	"name": "synmax",
+	"name": "Comet Plugin",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"dev": "concurrently \"rbxtsc -w\" \"rojo serve serve.project.json\"",
 		"reload": "npm i @rbxts/comet",
 		"build": "rbxtsc",
 		"watch": "rbxtsc -w"
@@ -26,11 +25,10 @@
 		"typescript": "^5.4.5"
 	},
 	"dependencies": {
-		"@rbxts/comet": "file:../../../@rbxts/comet/rbxts-comet-1.0.4.tgz",
+		"@rbxts/comet": "^1.1.1",
 		"@rbxts/janitor": "^1.15.7-ts.0",
 		"@rbxts/make": "^1.0.6",
 		"@rbxts/object-utils": "^1.0.4",
-		"@rbxts/plugin-react-hooks": "file:../../@rbxts/plugin-react-hooks/rbxts-plugin-react-hooks-0.0.1.tgz",
 		"@rbxts/react": "^0.3.6",
 		"@rbxts/react-reflex": "^0.3.4",
 		"@rbxts/react-roblox": "^0.3.6",
