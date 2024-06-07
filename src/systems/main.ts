@@ -20,7 +20,7 @@ export class MySystem extends System implements onInit, onStart, onRender, onEnd
 
 		// Create toolbar buttons.
 		this.uiButton = this.createButton("Show UI", "Show the UI", "rbxassetid://10941536680", true);
-		this.menuButton = this.createButton("Show Menu", "Show the Context Menu", "rbxassetid://14895352864", true);
+		this.menuButton = this.createButton("Show Menu", "Show the Context Menu", "rbxassetid://14895352864", false);
 
 		// Make a widget.
 		this.widgetView = this.createWidget("My Widget", Vector2.one.mul(100), Vector2.one.mul(100));
